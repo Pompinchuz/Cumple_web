@@ -13,10 +13,13 @@ let indiceCancion = 0;
 
 
 const playlist = [
+  { nombre: "OIA OIA :v", archivo: "/sound/OIA.mp3" },
   { nombre: "Dynamite - BTS", archivo: "/sound/BTS-Dynamite.mp3" },
   { nombre: "Boy With Luv - BTS", archivo: "/sound/Boy With Luv.mp3" },
   { nombre: "MIC Drop - BTS", archivo: "/sound/MICDrop.mp3" },
-  { nombre: "DNA - BTS", archivo: "/sound/BTSDNA.mp3" }
+  { nombre: "DNA - BTS", archivo: "/sound/BTSDNA.mp3" },
+  { nombre: "Feliz Cumple turu turu :D", archivo: "/sound/feliz cumpleaños.mp3" },
+  { nombre: "Butter - BTS", archivo: "/sound/Butter.mp3" }
 ];
 
 
