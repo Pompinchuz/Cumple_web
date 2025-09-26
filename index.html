@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎂 Feliz Cumpleaños 💜</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+  <div class="globos">
+    <span>🎈</span><span>🎈</span><span>🎈</span><span>🎈</span>
+  </div>
+
+
+  <header>
+    <h1>🎂 ¡Feliz Cumpleaños <span id="nombre">Ericka</span>! 💜</h1>
+  </header>
+
+  <main>
+
+    <div class="card">
+      <img src="img/gatito.png" alt="Foto cumpleaños" class="foto">
+      <p class="mensaje" id="mensaje"></p>
+    </div>
+
+
+    <div class="player">
+      <button id="btnAnterior">⏮</button>
+      <button id="btnMusica">▶</button>
+      <button id="btnSiguiente">⏭</button>
+      <p id="cancionActual">🎵</p>
+
+      <div class="progreso">
+        <span id="tiempoActual">0:00</span>
+        <input type="range" id="barraProgreso" value="0" min="0" max="100">
+        <span id="tiempoTotal">0:00</span>
+      </div>
+    </div>
+    <audio id="musica"></audio>
+
+
+    <div class="carrusel">
+      <div class="slide active"><img src="img/Kim-Seokjin-Jin-bangtannow.jpg" alt="Jin"></div>
+      <div class="slide"><img src="img/V.jpeg" alt="V"></div>
+      <div class="slide"><img src="img/RM.jpg" alt="RM"></div>
+      <div class="slide"><img src="img/jhope-jung-hoseok-1024x682.jpeg" alt="J-Hope"></div>
+      <div class="slide"><img src="img/park-jimin-bts.jpg" alt="Jimin"></div>
+      <div class="slide"><img src="img/suga2.jpg" alt="Suga"></div>
+      <div class="slide"><img src="img/Jungkoosk.jpeg" alt="Jungkook"></div>
+    </div>
+  </main>
+
+ 
+  <footer>
+    <p>Con mucho cariño 💜 Yisus :3</p>
+  </footer>
+
+  <canvas id="confetti"></canvas>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
